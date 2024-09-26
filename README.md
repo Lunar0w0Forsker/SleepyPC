@@ -1,6 +1,7 @@
 # SleepyPC
  
 This is a small app that I am developing for myself. Maybe it will be useful for someone else.
+This application should turn off the computer when the timer runs out.
 
 
 The concept. How it should look like
