@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace SleepyPC
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+   //Чтож.. Начнем
     public partial class MainWindow : Window
     {
         public MainWindow()
