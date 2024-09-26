@@ -92,6 +92,9 @@
                     <Image Margin="-3,2,19,1" Source="/ico.png" Stretch="Fill"/>
 
                 </Grid>
+                <Grid>
+                    <Label Content="SleepyPC" Margin="30,5,693,-5" Foreground="#7fa1bd" FontSize="16" FontFamily="Ink Free" FontWeight="Bold"/>
+                </Grid>    
             </Grid>
         </Border>
     </Grid>
