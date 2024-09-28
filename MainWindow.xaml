@@ -79,7 +79,7 @@
                     
                     <Button Style="{DynamicResource ExiButton}" Margin="764,0,0,0" Foreground="#FF30393C" Click="Button_Click" WindowChrome.IsHitTestVisibleInChrome="True" >
                         <Grid>
-                            <Image Name="cross" Height="34" Source="/cross.png" Stretch="Fill" Width="34" Margin="1,0,0,0"/>
+                            <Image Name="cross" Height="25" Source="/cross.png" Stretch="Fill" Width="25" Margin="1,0,0,0"/>
                         </Grid>
                         
                         
@@ -94,8 +94,17 @@
                 </Grid>
                 <Grid>
                     <Label Content="SleepyPC" Margin="30,5,693,-5" Foreground="#7fa1bd" FontSize="16" FontFamily="Ink Free" FontWeight="Bold"/>
-                </Grid>    
+                </Grid>
+
+                <Grid Margin="0,44,345,-270">
+                    <Border CornerRadius="5" BorderBrush="#191717" BorderThickness="2" Background="#34373f" Margin="26,28,19,23"  >
+                        <Label Content="00:00:00" Margin="-2,-2,-2,-2" Foreground="#7fa1bd" FontSize="80
+                               " FontFamily="Unispace" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </Border>
+                </Grid>
             </Grid>
+
+           
         </Border>
     </Grid>
 
