@@ -250,17 +250,30 @@
 
                     </Button>
 
-
                 </Border>
+                <Grid>
+                    <Label Content="h" Margin="526,72,0,-58" HorizontalAlignment="Left" Width="21">
 
+                    </Label>
+
+                    <Label Content="s" Margin="748,72,0,-58" HorizontalAlignment="Left" Width="21">
+
+                    </Label>
+
+                    <Label Content="m" Margin="642,72,0,-58" HorizontalAlignment="Left" Width="21">
+
+                    </Label>
+
+
+                </Grid>
                 <Grid Margin="0,0,756,0">
                     <Image Margin="-3,2,19,1" Source="/ico.png" Stretch="Fill"/>
 
                 </Grid>
 
                 <Grid>
-                    <Button Style="{DynamicResource ButtonStartAndStop}" Margin="498,218,28,-255" Content="Start" Foreground="#7a9ab2" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Unispace" >
-                        
+                    <Button Style="{DynamicResource ButtonStartAndStop}" Margin="510,214,39,-245" Content="Start" Foreground="#7a9ab2" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Unispace" >
+
                     </Button>
                 </Grid>
                 <Grid>
@@ -290,8 +303,8 @@
                                 </Button.RenderTransform>
                             </Button>
                         </Grid>
-                        
-                        
+
+
                     </Grid>
 
                     <Grid Margin="10,10,10,133">
