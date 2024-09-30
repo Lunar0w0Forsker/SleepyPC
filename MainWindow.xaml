@@ -252,15 +252,15 @@
 
                 </Border>
                 <Grid>
-                    <Label Content="h" Margin="526,72,0,-58" HorizontalAlignment="Left" Width="21">
+                    <Label Content="h" Margin="526,64,0,-58" HorizontalAlignment="Left" Width="21" Foreground="#7a9ab2" FontSize="18">
 
                     </Label>
 
-                    <Label Content="s" Margin="748,72,0,-58" HorizontalAlignment="Left" Width="21">
+                    <Label Content="s" Margin="742,64,0,-58" HorizontalAlignment="Left" Width="27" Foreground="#7a9ab2" FontSize="18">
 
                     </Label>
 
-                    <Label Content="m" Margin="642,72,0,-58" HorizontalAlignment="Left" Width="21">
+                    <Label Content="m" Margin="630,64,0,-58" HorizontalAlignment="Left" Width="26" Foreground="#7a9ab2" FontSize="18">
 
                     </Label>
 
@@ -289,10 +289,10 @@
                 <Grid Margin="463,44,0,-270">
                     <Grid Margin="10,10,10,133">
                         <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" Background="#34373f" Margin="20,40,215,37">
-                            <Button Style="{DynamicResource ButtonSetTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" Margin="59,-1,-2,20" FontSize="18" Click="Button_Click_1"/>
+                            <Button Style="{DynamicResource ButtonSetTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" Margin="59,-1,-2,20" FontSize="18" Click="Button_Click_1" Foreground="#afbdc8"/>
                         </Border>
                         <Grid Margin="78,40,131,37">
-                            <Button Style="{DynamicResource ButtonSetTime_2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="3,22,0,0" VerticalAlignment="Top" Width="28" FontSize="18" RenderTransformOrigin="0.5,0.5" Click="Button_Click_2">
+                            <Button Style="{DynamicResource ButtonSetTime_2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="3,22,0,0" VerticalAlignment="Top" Width="29" FontSize="18" RenderTransformOrigin="0.5,0.5" Click="Button_Click_2" Foreground="#afbdc8">
                                 <Button.RenderTransform>
                                     <TransformGroup>
                                         <ScaleTransform/>
@@ -305,7 +305,7 @@
                         </Grid>
 
                         <Grid Margin="20,40,244,38">
-                            <TextBox Name="TextBoxOne"  Text="0"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderThickness="0" PreviewMouseWheel="TextBoxOne_PreviewMouseWheel"/>
+                            <TextBox Name="TextBoxOne"  Text="0"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderThickness="0" PreviewMouseWheel="TextBoxOne_PreviewMouseWheel" Foreground="#7a9ab2" FontSize="18"/>
 
                         </Grid>
 
@@ -313,10 +313,10 @@
 
                     <Grid Margin="10,10,10,133">
                         <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" Background="#34373f" Margin="129,40,106,37">
-                            <Button Style="{DynamicResource ButtonSetTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="59,-1,0,0" VerticalAlignment="Top" Width="29" FontSize="18" Click="Button_Click_3"/>
+                            <Button Style="{DynamicResource ButtonSetTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="59,-1,0,0" VerticalAlignment="Top" Width="29" FontSize="18" Click="Button_Click_3" Foreground="#afbdc8"/>
                         </Border>
                         <Grid Margin="129,40,80,37">
-                            <Button Style="{DynamicResource ButtonSetTime_2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="61,22,0,0" VerticalAlignment="Top" Width="28" FontSize="18" RenderTransformOrigin="0.5,0.5" Click="Button_Click_4">
+                            <Button Style="{DynamicResource ButtonSetTime_2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="61,22,0,0" VerticalAlignment="Top" Width="28" FontSize="18" RenderTransformOrigin="0.5,0.5" Click="Button_Click_4" Foreground="#afbdc8">
                                 <Button.RenderTransform>
                                     <TransformGroup>
                                         <ScaleTransform/>
@@ -329,7 +329,7 @@
                         </Grid>
 
                         <Grid Margin="131,40,135,38">
-                            <TextBox Name="TextBoxTwo" Text="0"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderThickness="0" PreviewMouseWheel="TextBoxTwo_PreviewMouseWheel"/>
+                            <TextBox Name="TextBoxTwo" Text="0"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderThickness="0" PreviewMouseWheel="TextBoxTwo_PreviewMouseWheel" Foreground="#7a9ab2" FontSize="18"/>
 
                         </Grid>
 
@@ -338,10 +338,10 @@
 
                     <Grid Margin="10,10,10,133">
                         <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" Background="#34373f" Margin="235,38,0,38">
-                            <Button Style="{DynamicResource ButtonSetTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="59,-1,0,0" VerticalAlignment="Top" Width="29" FontSize="18" Click="Button_Click_5"/>
+                            <Button Style="{DynamicResource ButtonSetTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="59,-1,0,0" VerticalAlignment="Top" Width="29" FontSize="18" Click="Button_Click_5" Foreground="#afbdc8"/>
                         </Border>
                         <Grid Margin="238,40,0,37">
-                            <Button Style="{DynamicResource ButtonSetTime_2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="58,20,0,0" VerticalAlignment="Top" Width="28" FontSize="18" RenderTransformOrigin="0.5,0.5" Click="Button_Click_6" >
+                            <Button Style="{DynamicResource ButtonSetTime_2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="^" HorizontalAlignment="Left" Height="22" Margin="58,20,0,0" VerticalAlignment="Top" Width="28" FontSize="18" RenderTransformOrigin="0.5,0.5" Click="Button_Click_6" Foreground="#afbdc8" >
                                 <Button.RenderTransform>
                                     <TransformGroup>
                                         <ScaleTransform/>
@@ -353,7 +353,7 @@
                             </Button>
                         </Grid>
                         <Grid Margin="238,40,28,38">
-                            <TextBox Name="TextBoxThree" Text="0"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderThickness="0" PreviewMouseWheel="TextBoxThree_PreviewMouseWheel"/>
+                            <TextBox Name="TextBoxThree" Text="0"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Transparent" BorderThickness="0" PreviewMouseWheel="TextBoxThree_PreviewMouseWheel" Foreground="#7a9ab2" FontSize="18"/>
 
                         </Grid>
 

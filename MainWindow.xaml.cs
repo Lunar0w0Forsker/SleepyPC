@@ -54,7 +54,6 @@ namespace SleepyPC
             if (time <= -1 ) 
             {
                 timer.Stop();
-                MessageBox.Show("ххехххее");
                 isStop = false;
                 Startbtn.Content = "START";
                 Process.Start("shutdown", "/s /t 0");
